@@ -1,12 +1,26 @@
-<h1 align="center">Node.js Fundamentals 🔍</h1>
+<h1 align="center">Node.js Fundamentals 🖥</h1>
 
 
 <p align="center">Repository of studies on nodejs fundamentals.</p>
 
+### Annotations
+##### Request Methods:
+- [x] **GET:** Read data
+- [x] **POST:** Data creation
+- [x] **PUT:** Data update
+- [x] **DELETE:** Deletion
+- [x] **PATCH:** Partial updae
+  
+##### Parameter Types:
 
-### :nut_and_bolt: Tecnologias
+- [x] **Route Params:** Identify a resource (edit, delete and search)
+- [x] **Query Params:** Pagination / Filter
+- [x] **Body Params:**  The objects to insertion and change (JSON)
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+### :nut_and_bolt: Technologies
+
+Technologies used:
 
 - [Express][Express]
 - [Nodejs][Nodejs]
@@ -17,23 +31,23 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 [Nodejs]: https://nodejs.org/en/
 
 
-### 🤔 Como rodar o projeto? 
+### 🤔 How to run the project?  
 
 ```bash
-# Clone o repositório
-git clone https://github.com/Gabriek0/github-explorer.git
+# Clone the repository
+git clone https://github.com/Gabriek0/nodejs-fundamentals.git
 
-# Mude para o diretório do projeto
-cd https://github.com/Gabriek0/github-explorer.git
+# Change to the project directory
+cd https://github.com/Gabriek0/nodejs-fundamentals.git
 
-# Instale as dependências
+# Install the dependencies
 yarn
 
-# Rode o projeto
-yarn dev
+# Run the project
+yarn start
 ```
 
-###🧑 Autor do Projeto
+###🧑 Project author
 
 <table>
   <tr>
